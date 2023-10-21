@@ -1,13 +1,35 @@
-body {
-  margin: 0;
-  font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', 'Roboto', 'Oxygen',
-    'Ubuntu', 'Cantarell', 'Fira Sans', 'Droid Sans', 'Helvetica Neue',
-    sans-serif;
-  -webkit-font-smoothing: antialiased;
-  -moz-osx-font-smoothing: grayscale;
+@import './static/fonts/HelveticaNeueCyr/stylesheet.css';
+@import './static/fonts/NeueMachina/stylesheet.css';
+@import './static/fonts/Roboto/stylesheet.css';
+@import './static/fonts/RobotoCondensed/stylesheet.css';
+@import './static/fonts/RussoOne/stylesheet.css';
+
+@import './static/css/nav.css';
+@import './static/css/button.css';
+@import './static/css/backward.css';
+@import './static/css/headers.css';
+@import './static/css/inputs.css';
+@import './static/css/footer.css';
+@import './static/css/page_form.css';
+@import './static/css/page_result.css';
+
+body{
+  background-image: url('./static/svg_img/Background.svg');
+  background-repeat: no-repeat;
+  background-size: cover;
+  padding-left: 5%;
+  padding-right: 5%;
 }
 
-code {
-  font-family: source-code-pro, Menlo, Monaco, Consolas, 'Courier New',
-    monospace;
+:root{
+  font-size: 16px;
+  --color-white: #ffffff;
+  --color-black: #000000;
+  --color-dark-blue: #1F0837;
+  --color-dark-purple: #5A199E;
+  --color-purple: #923DEB;
+  --color-violet: #D4ABFF;
+  --color-lavender: #E5D0FC;
+  --color-light-lavender: #EBD8FF;
+  --color-yellow: #EBEB0C; 
 }
